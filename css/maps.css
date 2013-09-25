@@ -1,0 +1,81 @@
+body {
+	background: #fff;
+	height: 100%;
+	width: 100;
+	padding: 0;
+	margin: 0;
+}
+#container {
+	width: 580px;
+	height: 500px;
+	float: left;
+	background:#fff;
+	border: 0;
+	color:#666;
+}
+.shadow{
+	background: #000;
+	opacity: 0;
+	filter: alpha(0);
+	height: 100%;
+	width: 100%;
+	position:fixed;
+	z-index: 10;
+	visibility: hidden;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s; /* Safari */
+}
+.windowHache{
+	background: #fff;
+	width: 800px;
+	height: 700px;
+	left: 30%;
+	top: 10%;
+	opacity: 0;
+	filter: alpha(0);
+	position: absolute;
+	z-index: 11;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #333;
+	visibility: hidden;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s; /* Safari */
+	padding: 7px;
+}
+.windowHache iframe{
+	width:790px;
+	height: 670px;
+	border: 0;
+	background: transparent;
+	left: ;
+	overflow: hidden;
+
+}
+#container{
+	position: relative;
+}
+.provincias{
+	width: 780px;
+	height: 670px;
+}
+.alajuela{
+	background: url(../images/alajuela.png) no-repeat top right;
+}
+.heredia{
+	background: url(../images/heredia.png) no-repeat top right;
+}
+.limon{
+	background: url(../images/limon.png) no-repeat top right;
+}
+.guanacaste{
+	background: url(../images/guanacaste.png) no-repeat top right;
+}
+.puntarenas{
+	background: url(../images/puntarenas.png) no-repeat top right;
+}
+.cartago{
+	background: url(../images/cartago.png) no-repeat top right;
+}
+.sanjose{
+	background: url(../images/sanjose.png) no-repeat top right;
+}
